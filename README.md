@@ -40,7 +40,7 @@ Tohoku-Transcosmos 家庭内会話計画コーパス (TT-CFCP)は、家庭内の
     └── 0002.json
 
 ```
-生の音声データは[こちら](https://github.com/tohoku-nlp/tt-cfcp/releases/download/v1.0.0/tt-cfcp-audio-v1.zip)からダウンロードしてください．
+生の音声データは[こちら](https://github.com/tohoku-nlp/tt-cfcp/releases/download/v.1.0.0/tt-cfcp-audio-v1.zip)からダウンロードしてください．
 
 ### 対話データ
 
