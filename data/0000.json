@@ -1,0 +1,4654 @@
+{
+    "dialogue_id": "0000",
+    "interlocutors": [
+        "父",
+        "息子",
+        "母",
+        "音声アシスタント"
+    ],
+    "relationship": [
+        "父",
+        "息子",
+        "母",
+        "その他"
+    ],
+    "utterances": [
+        {
+            "utterance_id": 0,
+            "time": "0:00",
+            "interlocutor": "父",
+            "text": "これでピンポンなるかもしれない、なるちゃんとマイク君、ピンポンわかるかなおうちの",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 1,
+            "time": "0:06",
+            "interlocutor": "息子",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 2,
+            "time": "0:07",
+            "interlocutor": "父",
+            "text": "どうかな？教えてあげた。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 3,
+            "time": "0:14",
+            "interlocutor": "息子",
+            "text": "マイク君、oh マイク君はフランスあんでゅりゅんだよ [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 4,
+            "time": "0:18",
+            "interlocutor": "父",
+            "text": "お、いいねぇ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 5,
+            "time": "0:22",
+            "interlocutor": "息子",
+            "text": "I find it. I find it.",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 6,
+            "time": "0:24",
+            "interlocutor": "父",
+            "text": "Yes, I'm very fun.",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 7,
+            "time": "0:28",
+            "interlocutor": "息子",
+            "text": "How very tasty.",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 8,
+            "time": "0:30",
+            "interlocutor": "父",
+            "text": "Oh, is it tasty?",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 9,
+            "time": "0:32",
+            "interlocutor": "息子",
+            "text": "Yes, yeah, yeah. Nice",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 10,
+            "time": "0:37",
+            "interlocutor": "父",
+            "text": "How does it taste?",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 11,
+            "time": "0:40",
+            "interlocutor": "息子",
+            "text": "Yeah",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 12,
+            "time": "0:40",
+            "interlocutor": "父",
+            "text": "Is it sweet or sour?",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 13,
+            "time": "0:43",
+            "interlocutor": "息子",
+            "text": "Yeah.",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 14,
+            "time": "0:43",
+            "interlocutor": "父",
+            "text": "Is it sweet ?",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 15,
+            "time": "0:43",
+            "interlocutor": "息子",
+            "text": "Yeah",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 16,
+            "time": "0:48",
+            "interlocutor": "父",
+            "text": "うん、じゃあさ、たーちゃんさ今日はマイク君となるちゃんが9時に来るから",
+            "list_operation": [
+                {
+                    "id": "schedule_0",
+                    "operation": "create",
+                    "status": "confirmed",
+                    "what": "マイク君,なるちゃんが家に来る",
+                    "when": "今日の9時",
+                    "who": null,
+                    "where": "家",
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 17,
+            "time": "0:56",
+            "interlocutor": "息子",
+            "text": "9時に",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 18,
+            "time": "0:56",
+            "interlocutor": "父",
+            "text": "9時か10時に来るって、そしたらさどうする？プールに入る？",
+            "list_operation": [
+                {
+                    "id": "schedule_0",
+                    "operation": "update",
+                    "status": null,
+                    "what": null,
+                    "when": "今日の9時,10時",
+                    "who": null,
+                    "where": null,
+                    "why": null,
+                    "how": null
+                },
+                {
+                    "id": "action_0",
+                    "operation": "create",
+                    "status": "unconfirmed",
+                    "what": "プールに入る",
+                    "when": null,
+                    "who": "息子",
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 19,
+            "time": "1:04",
+            "interlocutor": "息子",
+            "text": "プールに入る。",
+            "list_operation": [
+                {
+                    "id": "action_0",
+                    "operation": "update",
+                    "status": "confirmed",
+                    "what": null,
+                    "when": null,
+                    "who": null,
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 20,
+            "time": "1:05",
+            "interlocutor": "父",
+            "text": "プールに入るんだったら、プールの準備しとかないとね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 21,
+            "time": "1:11",
+            "interlocutor": "息子",
+            "text": "並んで。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 22,
+            "time": "1:12",
+            "interlocutor": "父",
+            "text": "うん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 23,
+            "time": "1:13",
+            "interlocutor": "息子",
+            "text": "入るんだよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 24,
+            "time": "1:15",
+            "interlocutor": "父",
+            "text": "並んで入るの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 25,
+            "time": "1:17",
+            "interlocutor": "息子",
+            "text": "先生が言ってた。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 26,
+            "time": "1:18",
+            "interlocutor": "父",
+            "text": "ああ、先生が教えてくれたんだ。並んでプール入るんだよって。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 27,
+            "time": "1:24",
+            "interlocutor": "息子",
+            "text": "雪が降ってる。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 28,
+            "time": "1:25",
+            "interlocutor": "父",
+            "text": "雪が降ってるの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 29,
+            "time": "1:28",
+            "interlocutor": "息子",
+            "text": "炎 [inaudible] の雪が降ってるね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 30,
+            "time": "1:29",
+            "interlocutor": "父",
+            "text": "[そうか]ここに積もっちゃったのか、これ乾かしておこうか。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 31,
+            "time": "1:42",
+            "interlocutor": "息子",
+            "text": "見てこれ、ほら。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 32,
+            "time": "1:44",
+            "interlocutor": "父",
+            "text": "ほりゃ気をつけてよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 33,
+            "time": "1:46",
+            "interlocutor": "息子",
+            "text": "うぃ、え",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 34,
+            "time": "1:58",
+            "interlocutor": "父",
+            "text": "たーちゃん、今何時？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 35,
+            "time": "2:00",
+            "interlocutor": "息子",
+            "text": "えっと3時。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 36,
+            "time": "2:02",
+            "interlocutor": "父",
+            "text": "3時？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 37,
+            "time": "2:03",
+            "interlocutor": "息子",
+            "text": "3時だよ。今",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 38,
+            "time": "2:05",
+            "interlocutor": "父",
+            "text": "今短い針どこに来てるんだろ？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 39,
+            "time": "2:08",
+            "interlocutor": "息子",
+            "text": "えと。いとこいとこになってる。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 40,
+            "time": "2:15",
+            "interlocutor": "父",
+            "text": "いとこになってる？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 41,
+            "time": "2:16",
+            "interlocutor": "息子",
+            "text": "いとこになってるいとこ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 42,
+            "time": "2:19",
+            "interlocutor": "父",
+            "text": "今7時半だからさ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 43,
+            "time": "2:20",
+            "interlocutor": "息子",
+            "text": "7時半。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 44,
+            "time": "2:22",
+            "interlocutor": "父",
+            "text": "なるちゃん、あとどれぐらいで来るかな？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 45,
+            "time": "2:24",
+            "interlocutor": "息子",
+            "text": "うん、それ何？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 46,
+            "time": "2:29",
+            "interlocutor": "父",
+            "text": "なんだろうね、あれね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 47,
+            "time": "2:30",
+            "interlocutor": "息子",
+            "text": "お水から出てるのかなあれが。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 48,
+            "time": "2:33",
+            "interlocutor": "父",
+            "text": "ね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 49,
+            "time": "2:36",
+            "interlocutor": "息子",
+            "text": "あれなんだろうね、なんだろうね？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 50,
+            "time": "2:40",
+            "interlocutor": "父",
+            "text": "あれはなんだろうね？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 51,
+            "time": "2:42",
+            "interlocutor": "息子",
+            "text": "なんだろうね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 52,
+            "time": "2:50",
+            "interlocutor": "父",
+            "text": "Yeah, I'm very fun.",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 53,
+            "time": "2:56",
+            "interlocutor": "父",
+            "text": "何そ？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 54,
+            "time": "3:01",
+            "interlocutor": "息子",
+            "text": "それなにそれ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 55,
+            "time": "3:04",
+            "interlocutor": "父",
+            "text": "かかのクリップじゃない？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 56,
+            "time": "3:30",
+            "interlocutor": "父",
+            "text": "たーちゃん、チッチとばあばとさあ、またお泊り行くんでしょう。あと何回寝たらいけるの？",
+            "list_operation": [
+                {
+                    "id": "schedule_1",
+                    "operation": "create",
+                    "status": "unconfirmed",
+                    "what": "ちっちとばあばとお泊りに行く",
+                    "when": null,
+                    "who": "息子",
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 57,
+            "time": "3:45",
+            "interlocutor": "息子",
+            "text": "うん。",
+            "list_operation": [
+                {
+                    "id": "schedule_1",
+                    "operation": "update",
+                    "status": "confirmed",
+                    "what": null,
+                    "when": null,
+                    "who": null,
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 58,
+            "time": "3:49",
+            "interlocutor": "母",
+            "text": "ご機嫌だったの？散歩は。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 59,
+            "time": "3:51",
+            "interlocutor": "父",
+            "text": "ご機嫌です。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 60,
+            "time": "3:52",
+            "interlocutor": "母",
+            "text": "[inaudible] 途中でなんだ？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 61,
+            "time": "3:57",
+            "interlocutor": "父",
+            "text": "途中も何も家出てですぐに分かれた。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 62,
+            "time": "3:59",
+            "interlocutor": "父",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 63,
+            "time": "3:59",
+            "interlocutor": "母",
+            "text": "そんなもんじゃない",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 64,
+            "time": "4:03",
+            "interlocutor": "息子",
+            "text": "ポイするんじゃない",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 65,
+            "time": "4:04",
+            "interlocutor": "母",
+            "text": "ポイする、ぽん、たーちゃんトイレを [inaudible] したんじゃない、さっきおしっこして",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 66,
+            "time": "4:10",
+            "interlocutor": "父",
+            "text": "あ、たーちゃんおトイレできたの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 67,
+            "time": "4:10",
+            "interlocutor": "息子",
+            "text": "はい",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 68,
+            "time": "4:10",
+            "interlocutor": "母",
+            "text": "うん、いくまえ [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 69,
+            "time": "4:10",
+            "interlocutor": "息子",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 70,
+            "time": "4:26",
+            "interlocutor": "父",
+            "text": "たーちゃん自分で水着に着替えることもできるの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 71,
+            "time": "4:28",
+            "interlocutor": "息子",
+            "text": "[inaudible] みんなでお風呂はいりたいんだ、みんなでお風呂",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 72,
+            "time": "4:29",
+            "interlocutor": "母",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 73,
+            "time": "4:35",
+            "interlocutor": "息子",
+            "text": "さっき入った",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 74,
+            "time": "4:37",
+            "interlocutor": "父",
+            "text": "じゃ、プール入ったらその次にお風呂みんなで入る、マイク君も一緒でいい？",
+            "list_operation": [
+                {
+                    "id": "action_1",
+                    "operation": "create",
+                    "status": "confirmed",
+                    "what": "お風呂に入る",
+                    "when": null,
+                    "who": "父,母,息子",
+                    "where": "お風呂",
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 75,
+            "time": "4:46",
+            "interlocutor": "息子",
+            "text": "だめ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 76,
+            "time": "4:46",
+            "interlocutor": "父",
+            "text": "なんで",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 77,
+            "time": "4:46",
+            "interlocutor": "母",
+            "text": "みんなでお風呂入ってきれいになったらお夕食べるじゃない",
+            "list_operation": [
+                {
+                    "id": "action_1",
+                    "operation": "update",
+                    "status": null,
+                    "what": null,
+                    "when": null,
+                    "who": null,
+                    "where": null,
+                    "why": "きれいになったらお夕食べる",
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 78,
+            "time": "4:52",
+            "interlocutor": "父",
+            "text": "うん、それいいねnice ideaだね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 79,
+            "time": "4:54",
+            "interlocutor": "息子",
+            "text": "nice idea",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 80,
+            "time": "4:55",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 81,
+            "time": "4:55",
+            "interlocutor": "息子",
+            "text": "[inaudible] nice idea",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 82,
+            "time": "5:00",
+            "interlocutor": "父",
+            "text": "nice ideaだね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 83,
+            "time": "5:04",
+            "interlocutor": "息子",
+            "text": "それnice idea",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 84,
+            "time": "5:04",
+            "interlocutor": "父",
+            "text": "今日はさあ、うん、たーちゃん、今さあ、ちょっとクラウディだからさあ、曇ってるから暑くならないかなあ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 85,
+            "time": "5:11",
+            "interlocutor": "息子",
+            "text": "暑く、曇り",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 86,
+            "time": "5:12",
+            "interlocutor": "父",
+            "text": "曇り、",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 87,
+            "time": "5:15",
+            "interlocutor": "母",
+            "text": "寒かったの",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 88,
+            "time": "5:15",
+            "interlocutor": "父",
+            "text": "涼しかった",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 89,
+            "time": "5:16",
+            "interlocutor": "母",
+            "text": "あ、本当",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 90,
+            "time": "5:16",
+            "interlocutor": "父",
+            "text": "25度あるかどうか。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 91,
+            "time": "5:19",
+            "interlocutor": "母",
+            "text": "帰れない。 [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 92,
+            "time": "5:20",
+            "interlocutor": "父",
+            "text": "[inaudible] うん、日が出れば",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 93,
+            "time": "5:25",
+            "interlocutor": "父",
+            "text": "たーちゃん、今日何見たんだっけ？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 94,
+            "time": "5:28",
+            "interlocutor": "息子",
+            "text": "ん？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 95,
+            "time": "5:28",
+            "interlocutor": "父",
+            "text": "今日お散歩で何見たの？いろんな花があったね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 96,
+            "time": "5:36",
+            "interlocutor": "息子",
+            "text": "いろんな花があった。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 97,
+            "time": "5:38",
+            "interlocutor": "父",
+            "text": "もうたーちゃん葛は覚えたよね？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 98,
+            "time": "5:42",
+            "interlocutor": "息子",
+            "text": "葛",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 99,
+            "time": "5:44",
+            "interlocutor": "父",
+            "text": "葛とかイヌガラシとか。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 100,
+            "time": "5:47",
+            "interlocutor": "息子",
+            "text": "イヌガラシ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 101,
+            "time": "5:48",
+            "interlocutor": "父",
+            "text": "ね、山椒ももうわかるね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 102,
+            "time": "5:50",
+            "interlocutor": "息子",
+            "text": "山椒。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 103,
+            "time": "5:52",
+            "interlocutor": "父",
+            "text": "葛の花は何色だった？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 104,
+            "time": "5:55",
+            "interlocutor": "息子",
+            "text": "うん、そう",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 105,
+            "time": "5:57",
+            "interlocutor": "父",
+            "text": "何色だった？purpleだよね？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 106,
+            "time": "6:01",
+            "interlocutor": "父",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 107,
+            "time": "6:25",
+            "interlocutor": "息子",
+            "text": "食べないこれ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 108,
+            "time": "6:26",
+            "interlocutor": "父",
+            "text": "うん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 109,
+            "time": "6:27",
+            "interlocutor": "息子",
+            "text": "食べな。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 110,
+            "time": "6:29",
+            "interlocutor": "父",
+            "text": "うん、ありがとう。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 111,
+            "time": "6:30",
+            "interlocutor": "母",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 112,
+            "time": "6:30",
+            "interlocutor": "父",
+            "text": "たーちゃんも、ほらクリームパンもう一個食べるの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 113,
+            "time": "6:38",
+            "interlocutor": "父",
+            "text": "今日はクリームパンにする？。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 114,
+            "time": "6:41",
+            "interlocutor": "息子",
+            "text": "今日はクリームパンにする。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 115,
+            "time": "6:44",
+            "interlocutor": "父",
+            "text": "いいよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 116,
+            "time": "6:45",
+            "interlocutor": "息子",
+            "text": "あらら。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 117,
+            "time": "6:50",
+            "interlocutor": "父",
+            "text": "もう一個食べるの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 118,
+            "time": "6:54",
+            "interlocutor": "息子",
+            "text": "うん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 119,
+            "time": "6:58",
+            "interlocutor": "父",
+            "text": "たーちゃん、昨日はどこ行ってきたの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 120,
+            "time": "6:59",
+            "interlocutor": "息子",
+            "text": "昨日はたっくん [inaudible] と",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 121,
+            "time": "6:59",
+            "interlocutor": "父",
+            "text": "ん？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 122,
+            "time": "7:06",
+            "interlocutor": "息子",
+            "text": "マイク君いた",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 123,
+            "time": "7:09",
+            "interlocutor": "父",
+            "text": "マイクくんと遊んだの？今日遊ぶんじゃないの？ほらもう一個出すよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 124,
+            "time": "7:27",
+            "interlocutor": "父",
+            "text": "はい、どうぞ、ほれ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 125,
+            "time": "7:28",
+            "interlocutor": "息子",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 126,
+            "time": "7:39",
+            "interlocutor": "父",
+            "text": "出た、あまのじゃくたーちゃん、たーちゃん桃食べる？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 127,
+            "time": "7:45",
+            "interlocutor": "息子",
+            "text": "桃食べる？タナハシさんにもらったやつ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 128,
+            "time": "7:56",
+            "interlocutor": "父",
+            "text": "そう、タナハシさんがくれたから今日ありがとう言ったんだよね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 129,
+            "time": "8:14",
+            "interlocutor": "息子",
+            "text": "それで作ったんだよ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 130,
+            "time": "8:14",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 131,
+            "time": "8:15",
+            "interlocutor": "息子",
+            "text": "それで",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 132,
+            "time": "8:15",
+            "interlocutor": "父",
+            "text": "ここに入れていい、入れていい？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 133,
+            "time": "8:18",
+            "interlocutor": "息子",
+            "text": "いい",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 134,
+            "time": "8:18",
+            "interlocutor": "息子",
+            "text": "[noise]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 135,
+            "time": "8:42",
+            "interlocutor": "父",
+            "text": "たーちゃん桃美味しそう。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 136,
+            "time": "8:44",
+            "interlocutor": "息子",
+            "text": "美味しそう。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 137,
+            "time": "8:44",
+            "interlocutor": "息子",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 138,
+            "time": "8:44",
+            "interlocutor": "息子",
+            "text": "これ水鉄砲だよ水鉄砲 [inaudible] これ、これはドライバー",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 139,
+            "time": "9:40",
+            "interlocutor": "父",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 140,
+            "time": "10:15",
+            "interlocutor": "父",
+            "text": "たーちゃん桃食べて。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 141,
+            "time": "10:17",
+            "interlocutor": "息子",
+            "text": "うんそう",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 142,
+            "time": "10:17",
+            "interlocutor": "父",
+            "text": "今ね、お皿お皿に切ったやつ入れたから",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 143,
+            "time": "10:21",
+            "interlocutor": "息子",
+            "text": "うん、",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 144,
+            "time": "10:23",
+            "interlocutor": "父",
+            "text": "それこぼさないようにテーブル持ってって食べてください。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 145,
+            "time": "10:28",
+            "interlocutor": "息子",
+            "text": "はい。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 146,
+            "time": "10:44",
+            "interlocutor": "息子",
+            "text": "パパプレイヤー、チューブル。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 147,
+            "time": "10:48",
+            "interlocutor": "父",
+            "text": "は、朝は見ないんだよね？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 148,
+            "time": "10:50",
+            "interlocutor": "息子",
+            "text": "朝は見る",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 149,
+            "time": "10:51",
+            "interlocutor": "父",
+            "text": "あれ？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 150,
+            "time": "10:52",
+            "interlocutor": "母",
+            "text": "夜は見ない？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 151,
+            "time": "10:53",
+            "interlocutor": "息子",
+            "text": "夜は見ない。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 152,
+            "time": "10:56",
+            "interlocutor": "母",
+            "text": "ちゃんと閉じれる？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 153,
+            "time": "10:56",
+            "interlocutor": "息子",
+            "text": "閉じる。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 154,
+            "time": "10:56",
+            "interlocutor": "母",
+            "text": "はい",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 155,
+            "time": "11:00",
+            "interlocutor": "父",
+            "text": "じゃ、たーちゃん、",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 156,
+            "time": "11:02",
+            "interlocutor": "息子",
+            "text": "ん？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 157,
+            "time": "11:02",
+            "interlocutor": "父",
+            "text": "今はさあ、じろちゃん寝てるからちょっとちっちゃくしてくれる？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 158,
+            "time": "11:05",
+            "interlocutor": "息子",
+            "text": "[noise] ゃんが現れましたどうした？、の何？、、があったの僕たちにプレゼントくれなかったんだ。、 [inaudible] 落ち着いてた。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 159,
+            "time": "11:32",
+            "interlocutor": "父",
+            "text": "[inaudible] ・・・[noise]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 160,
+            "time": "11:51",
+            "interlocutor": "父",
+            "text": "なっちゃんの次ががく。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 161,
+            "time": "11:53",
+            "interlocutor": "母",
+            "text": "そうだよ。 [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 162,
+            "time": "12:07",
+            "interlocutor": "父",
+            "text": "来週たろちゃんはばあばと一緒に旅行に行くんですね。",
+            "list_operation": [
+                {
+                    "id": "schedule_1",
+                    "operation": "update",
+                    "status": null,
+                    "what": "ちっちとばあばと旅行に行く",
+                    "when": "来週",
+                    "who": null,
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 163,
+            "time": "12:22",
+            "interlocutor": "母",
+            "text": "[inaudible] パーセイダリ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 164,
+            "time": "12:24",
+            "interlocutor": "父",
+            "text": "来週末は",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 165,
+            "time": "12:28",
+            "interlocutor": "母",
+            "text": "いいじゃん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 166,
+            "time": "12:29",
+            "interlocutor": "父",
+            "text": "もう来週、来週末じゃない",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 167,
+            "time": "12:33",
+            "interlocutor": "母",
+            "text": "ん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 168,
+            "time": "12:33",
+            "interlocutor": "父",
+            "text": "24 25は",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 169,
+            "time": "12:35",
+            "interlocutor": "母",
+            "text": "[inaudible] なのかな？ [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 170,
+            "time": "12:35",
+            "interlocutor": "父",
+            "text": "特に合宿、関東。 [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 171,
+            "time": "12:46",
+            "interlocutor": "母",
+            "text": "にじゅう、25ひよこの夏祭りじゃん。",
+            "list_operation": [
+                {
+                    "id": "schedule_2",
+                    "operation": "create",
+                    "status": "unconfirmed",
+                    "what": "ひよこの夏祭り",
+                    "when": "今月の25日",
+                    "who": null,
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 172,
+            "time": "12:47",
+            "interlocutor": "父",
+            "text": "そうです。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 173,
+            "time": "12:48",
+            "interlocutor": "母",
+            "text": "そうだね、聞かなきゃいけない。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 174,
+            "time": "12:52",
+            "interlocutor": "母",
+            "text": "[inaudible] ももじゃんこれ見て",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 175,
+            "time": "12:55",
+            "interlocutor": "父",
+            "text": "もも先生のももだ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 176,
+            "time": "13:11",
+            "interlocutor": "母",
+            "text": "とうちゃん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 177,
+            "time": "13:34",
+            "interlocutor": "父",
+            "text": "今日おっきいプール？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 178,
+            "time": "13:36",
+            "interlocutor": "息子",
+            "text": "おっきいプール",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 179,
+            "time": "13:37",
+            "interlocutor": "母",
+            "text": "ちっちゃいのとおっきいのと出す？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 180,
+            "time": "13:41",
+            "interlocutor": "息子",
+            "text": "おっきいのプール今日は。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 181,
+            "time": "13:43",
+            "interlocutor": "父",
+            "text": "桶じゃなくて？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 182,
+            "time": "13:44",
+            "interlocutor": "息子",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 183,
+            "time": "13:44",
+            "interlocutor": "母",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 184,
+            "time": "13:45",
+            "interlocutor": "父",
+            "text": "ちっちゃいのもん出すな。 [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 185,
+            "time": "13:47",
+            "interlocutor": "母",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 186,
+            "time": "13:47",
+            "interlocutor": "息子",
+            "text": "そう",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 187,
+            "time": "13:50",
+            "interlocutor": "母",
+            "text": "マイク君とか入るでしょ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 188,
+            "time": "13:54",
+            "interlocutor": "父",
+            "text": "おっきいプールにするかな",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 189,
+            "time": "13:56",
+            "interlocutor": "息子",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 190,
+            "time": "13:56",
+            "interlocutor": "父",
+            "text": "で準備しなきゃね？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 191,
+            "time": "13:58",
+            "interlocutor": "息子",
+            "text": "大きいプール入りたいな。あたたかいやつ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 192,
+            "time": "14:01",
+            "interlocutor": "母",
+            "text": "マット買ったのあっちに入ってる？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 193,
+            "time": "14:03",
+            "interlocutor": "息子",
+            "text": "あったかいの入ったら次はは冷たいのプールがいい。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 194,
+            "time": "14:08",
+            "interlocutor": "母",
+            "text": "いやカップルあるかな？太陽さんに温めてもらえないと、でも太陽出てきたね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 195,
+            "time": "14:13",
+            "interlocutor": "父",
+            "text": "うん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 196,
+            "time": "14:14",
+            "interlocutor": "母",
+            "text": "よかった。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 197,
+            "time": "14:35",
+            "interlocutor": "父",
+            "text": "た－ちゃん、桃美味しいよ。甘くて美味しい。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 198,
+            "time": "14:39",
+            "interlocutor": "息子",
+            "text": "へへへ面白い。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 199,
+            "time": "14:40",
+            "interlocutor": "父",
+            "text": "面白いじゃなくて。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 200,
+            "time": "14:41",
+            "interlocutor": "母",
+            "text": "食べて。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 201,
+            "time": "14:44",
+            "interlocutor": "父",
+            "text": "桃、あとクリームパンも出したでしょ？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 202,
+            "time": "14:47",
+            "interlocutor": "息子",
+            "text": "うん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 203,
+            "time": "14:48",
+            "interlocutor": "父",
+            "text": "フォークもあるから桃はフォークで食べてね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 204,
+            "time": "14:51",
+            "interlocutor": "母",
+            "text": "はいはいって。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 205,
+            "time": "15:10",
+            "interlocutor": "父",
+            "text": "[inaudible] 4時半くらい、ドライブ行ってきた。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 206,
+            "time": "15:18",
+            "interlocutor": "母",
+            "text": "あ、そうなのだから、ちょっと静かになったのずっとうるさかったから。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 207,
+            "time": "15:25",
+            "interlocutor": "父",
+            "text": "煎餅くれが激しすぎて無理。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 208,
+            "time": "15:30",
+            "interlocutor": "母",
+            "text": "だえ、もうずっと泣いてんだもんマジうるさいなんなんだ、あれ本当？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 209,
+            "time": "15:34",
+            "interlocutor": "母",
+            "text": "[inaudible] 美味しい [inaudible] 、",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 210,
+            "time": "15:34",
+            "interlocutor": "父",
+            "text": "美味しいよね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 211,
+            "time": "15:40",
+            "interlocutor": "母",
+            "text": "朝一で食わせたの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 212,
+            "time": "15:42",
+            "interlocutor": "息子",
+            "text": "面白い。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 213,
+            "time": "15:43",
+            "interlocutor": "母",
+            "text": "したら欲しい欲しいが止まらなかったわけ？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 214,
+            "time": "15:45",
+            "interlocutor": "父",
+            "text": "朝起きたらおせんべい食べるってなるか？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 215,
+            "time": "15:51",
+            "interlocutor": "母",
+            "text": "ルーティン化してるのね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 216,
+            "time": "15:53",
+            "interlocutor": "父",
+            "text": "一袋じゃおさまらんでぇ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 217,
+            "time": "15:55",
+            "interlocutor": "母",
+            "text": "おさまらせるんです。食いしん坊すぎじゃない？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 218,
+            "time": "16:01",
+            "interlocutor": "母",
+            "text": "大丈夫？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 219,
+            "time": "16:01",
+            "interlocutor": "父",
+            "text": "でもね、今日は馬見て今日なんか大会があるみたい。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 220,
+            "time": "16:06",
+            "interlocutor": "母",
+            "text": "こびさは？ [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 221,
+            "time": "16:07",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 222,
+            "time": "16:07",
+            "interlocutor": "母",
+            "text": "いたのいっぱい。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 223,
+            "time": "16:09",
+            "interlocutor": "父",
+            "text": "あそこのヨットのところ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 224,
+            "time": "16:10",
+            "interlocutor": "母",
+            "text": "うん、",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 225,
+            "time": "16:11",
+            "interlocutor": "父",
+            "text": "富津から来てたね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 226,
+            "time": "16:12",
+            "interlocutor": "母",
+            "text": "富津？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 227,
+            "time": "16:13",
+            "interlocutor": "父",
+            "text": "富津。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 228,
+            "time": "16:14",
+            "interlocutor": "父",
+            "text": "へえ、あ、車がみんな？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 229,
+            "time": "16:17",
+            "interlocutor": "父",
+            "text": "多分、馬乗っけてきてんな。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 230,
+            "time": "16:18",
+            "interlocutor": "母",
+            "text": "へえ、馬も移動して大変だね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 231,
+            "time": "16:25",
+            "interlocutor": "母",
+            "text": "俺は好きよ。 [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 232,
+            "time": "16:26",
+            "interlocutor": "母",
+            "text": "もう後は冷凍してるからミキサーとかにかけてシャーベットに、桃シャーベット、贅沢だな",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 233,
+            "time": "16:56",
+            "interlocutor": "父",
+            "text": "あっという間に8時だよ起きて4時間。4時とかだってまだ星出てる",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 234,
+            "time": "17:08",
+            "interlocutor": "母",
+            "text": "辛かったよね。その前からだ結構泣いて、2時内に一回ミルク飲ませて寝てさあ、このまま5時ぐらいまで寝てくんないかなとか思って、4時前にまた起きてさ、あの時間に起きるとさなんかもう錯覚して寝ないんだよね。本当に嫌だ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 235,
+            "time": "17:27",
+            "interlocutor": "父",
+            "text": "最近そのタイミングでたーちゃん起きちゃうもんね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 236,
+            "time": "17:29",
+            "interlocutor": "母",
+            "text": "そうでもあのあと、ターちゃんは多分一時間ぐらい寝れたかな。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 237,
+            "time": "17:32",
+            "interlocutor": "父",
+            "text": "寝れた？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 238,
+            "time": "17:33",
+            "interlocutor": "母",
+            "text": "うん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 239,
+            "time": "17:34",
+            "interlocutor": "母",
+            "text": "うるさかったことで全然ね。多分そのドライブ連れてった後、ドラットで外で会ってるんだよ。 [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 240,
+            "time": "17:44",
+            "interlocutor": "父",
+            "text": "明日は？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 241,
+            "time": "17:45",
+            "interlocutor": "父",
+            "text": "明日はゴミの日か？",
+            "list_operation": [
+                {
+                    "id": "schedule_3",
+                    "operation": "create",
+                    "status": "unconfirmed",
+                    "what": "ゴミの日",
+                    "when": "明日",
+                    "who": null,
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 242,
+            "time": "17:47",
+            "interlocutor": "母",
+            "text": "月曜日だからうん。",
+            "list_operation": [
+                {
+                    "id": "schedule_3",
+                    "operation": "update",
+                    "status": "confirmed",
+                    "what": null,
+                    "when": "明日（月曜日）",
+                    "who": null,
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 243,
+            "time": "17:53",
+            "interlocutor": "父",
+            "text": "あじゃもう来週でさ。レミラアプリとかプールとかおしまいになっちゃ。うね、",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 244,
+            "time": "17:59",
+            "interlocutor": "母",
+            "text": "月曜日が最後だよ、プールほんとね。うん、あと一回。",
+            "list_operation": [
+                {
+                    "id": "schedule_4",
+                    "operation": "create",
+                    "status": "confirmed",
+                    "what": "最後のプール",
+                    "when": "月曜日",
+                    "who": null,
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 245,
+            "time": "18:04",
+            "interlocutor": "父",
+            "text": "月曜日プール最後だって。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 246,
+            "time": "18:06",
+            "interlocutor": "母",
+            "text": "保育園",
+            "list_operation": [
+                {
+                    "id": "schedule_4",
+                    "operation": "update",
+                    "status": null,
+                    "what": null,
+                    "when": null,
+                    "who": "息子",
+                    "where": "保育園",
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 247,
+            "time": "18:08",
+            "interlocutor": "父",
+            "text": "聞いてる？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 248,
+            "time": "18:08",
+            "interlocutor": "母",
+            "text": "じゃじゃ一回オフして、ハロー",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 249,
+            "time": "18:12",
+            "interlocutor": "息子",
+            "text": "ん？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 250,
+            "time": "18:12",
+            "interlocutor": "父",
+            "text": "オフして一回お話ししてるから。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 251,
+            "time": "18:14",
+            "interlocutor": "母",
+            "text": "ん？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 252,
+            "time": "18:16",
+            "interlocutor": "父",
+            "text": "明日月曜日でプール。",
+            "list_operation": [
+                {
+                    "id": "schedule_4",
+                    "operation": "update",
+                    "status": null,
+                    "what": null,
+                    "when": "明日（月曜日）",
+                    "who": null,
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 253,
+            "time": "18:19",
+            "interlocutor": "母",
+            "text": "保育園、保育園のプール最後だよ、明日",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 254,
+            "time": "18:21",
+            "interlocutor": "息子",
+            "text": "最後の",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 255,
+            "time": "18:26",
+            "interlocutor": "父",
+            "text": "うん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 256,
+            "time": "18:27",
+            "interlocutor": "母",
+            "text": "寒くなっちゃうから、もう入れないって。分かった？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 257,
+            "time": "18:33",
+            "interlocutor": "母",
+            "text": "聞いてる？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 258,
+            "time": "18:34",
+            "interlocutor": "父",
+            "text": "悲しいね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 259,
+            "time": "18:35",
+            "interlocutor": "母",
+            "text": "[inaudible] いらないでしょ？ [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 260,
+            "time": "18:36",
+            "interlocutor": "父",
+            "text": "うん、まあいらない。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 261,
+            "time": "18:38",
+            "interlocutor": "母",
+            "text": "しまっときな。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 262,
+            "time": "18:38",
+            "interlocutor": "息子",
+            "text": "冷蔵庫",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 263,
+            "time": "18:38",
+            "interlocutor": "父",
+            "text": "もう食べたんだよね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 264,
+            "time": "18:40",
+            "interlocutor": "母",
+            "text": "さっき食べたんでしょう、一個。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 265,
+            "time": "18:43",
+            "interlocutor": "父",
+            "text": "もう一個食べるって。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 266,
+            "time": "18:45",
+            "interlocutor": "母",
+            "text": "食べないでしょ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 267,
+            "time": "18:47",
+            "interlocutor": "母",
+            "text": "食べてるわ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 268,
+            "time": "18:51",
+            "interlocutor": "父",
+            "text": "桃も食べてね、しよう。タナハシさんにさっきちゃんとお礼言えたね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 269,
+            "time": "18:57",
+            "interlocutor": "母",
+            "text": "ありがとう言えた？たーちゃん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 270,
+            "time": "18:59",
+            "interlocutor": "父",
+            "text": "うん、また来たよって。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 271,
+            "time": "19:03",
+            "interlocutor": "母",
+            "text": "喜んでた？タナハシさん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 272,
+            "time": "19:06",
+            "interlocutor": "父",
+            "text": "別にたーちゃんに言ったし。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 273,
+            "time": "19:10",
+            "interlocutor": "息子",
+            "text": "うん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 274,
+            "time": "19:10",
+            "interlocutor": "母",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 275,
+            "time": "19:17",
+            "interlocutor": "母",
+            "text": "二人たち話したいんだよね。きっと。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 276,
+            "time": "19:28",
+            "interlocutor": "母",
+            "text": "子供いないでしょうあの夫婦は。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 277,
+            "time": "19:30",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 278,
+            "time": "19:34",
+            "interlocutor": "母",
+            "text": "ね、やっぱ寂しいよ、どっちかがなくなっちゃったあとが寂しい。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 279,
+            "time": "19:42",
+            "interlocutor": "母",
+            "text": "あ、みんなで遊べないよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 280,
+            "time": "19:45",
+            "interlocutor": "母",
+            "text": "だめでしょ。おっきいプール出したっいしょう",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 281,
+            "time": "19:50",
+            "interlocutor": "母",
+            "text": "ジロちゃんのお部屋におっきいプールあるんだよね、えっ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 282,
+            "time": "19:55",
+            "interlocutor": "父",
+            "text": "ん。この間後ろに置いたよ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 283,
+            "time": "19:57",
+            "interlocutor": "母",
+            "text": "どっち？あの空気の位置がなくて？[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 284,
+            "time": "20:02",
+            "interlocutor": "父",
+            "text": "あれがそう？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 285,
+            "time": "20:02",
+            "interlocutor": "母",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 286,
+            "time": "20:03",
+            "interlocutor": "父",
+            "text": "むっちゃ大変じゃない？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 287,
+            "time": "20:03",
+            "interlocutor": "母",
+            "text": "大変？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 288,
+            "time": "20:05",
+            "interlocutor": "父",
+            "text": "乾かすのか？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 289,
+            "time": "20:06",
+            "interlocutor": "母",
+            "text": "でも空気ずっとボーって出てるんですよ、乾くの。いやだったらいい。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 290,
+            "time": "20:14",
+            "interlocutor": "母",
+            "text": "それをやりたいってずっとたろうが言ってた",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 291,
+            "time": "20:20",
+            "interlocutor": "母",
+            "text": "友達が来たらあれ出せる。あの滑り台のやつって、あの、あの中に入ってるの、知ってるんだよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 292,
+            "time": "20:28",
+            "interlocutor": "息子",
+            "text": "これは [inaudible] に触っちゃだめよとか",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 293,
+            "time": "20:29",
+            "interlocutor": "父",
+            "text": "そうだよね、たーちゃん、今日プールさあ、この間じいじとばあばとお泊り行った時に使ったあのおっきいプールでいい？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 294,
+            "time": "20:40",
+            "interlocutor": "息子",
+            "text": "あのおっきいプールでいい",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 295,
+            "time": "20:41",
+            "interlocutor": "父",
+            "text": "うん、あの。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 296,
+            "time": "20:43",
+            "interlocutor": "母",
+            "text": "んじゃ、この滑り台出すか。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 297,
+            "time": "20:44",
+            "interlocutor": "母",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 298,
+            "time": "21:03",
+            "interlocutor": "母",
+            "text": "ん、でかいのは室内用にする？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 299,
+            "time": "21:04",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 300,
+            "time": "21:16",
+            "interlocutor": "息子",
+            "text": "[inaudible] のコンセントはこのね、線",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 301,
+            "time": "21:19",
+            "interlocutor": "父",
+            "text": "どうぞ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 302,
+            "time": "21:22",
+            "interlocutor": "息子",
+            "text": "[inaudible] のコンセントはいいよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 303,
+            "time": "21:23",
+            "interlocutor": "父",
+            "text": "だね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 304,
+            "time": "21:23",
+            "interlocutor": "息子",
+            "text": "壁の",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 305,
+            "time": "21:26",
+            "interlocutor": "父",
+            "text": "壁、壁のコンセントはだめ壁のコンセントは電気が通ってるからね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 306,
+            "time": "21:30",
+            "interlocutor": "息子",
+            "text": "ここのコンセント",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 307,
+            "time": "21:34",
+            "interlocutor": "母",
+            "text": "それだめ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 308,
+            "time": "21:35",
+            "interlocutor": "父",
+            "text": "そこもだめ、壁はだめ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 309,
+            "time": "21:36",
+            "interlocutor": "母",
+            "text": "雷さんと一緒だから。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 310,
+            "time": "21:38",
+            "interlocutor": "父",
+            "text": "うん、ビリビリっとするから。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 311,
+            "time": "21:40",
+            "interlocutor": "父",
+            "text": "うん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 312,
+            "time": "21:41",
+            "interlocutor": "父",
+            "text": "そこの壁にくっついてるコンセントは",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 313,
+            "time": "21:43",
+            "interlocutor": "母",
+            "text": "だめ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 314,
+            "time": "21:43",
+            "interlocutor": "父",
+            "text": "あぶない。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 315,
+            "time": "21:45",
+            "interlocutor": "母",
+            "text": "いつも遊んでるやつよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 316,
+            "time": "21:47",
+            "interlocutor": "息子",
+            "text": "あぶない",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 317,
+            "time": "21:47",
+            "interlocutor": "父",
+            "text": "これはいいよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 318,
+            "time": "21:50",
+            "interlocutor": "父",
+            "text": "ここいいよ、",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 319,
+            "time": "21:50",
+            "interlocutor": "母",
+            "text": "ソファーのやつよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 320,
+            "time": "21:52",
+            "interlocutor": "父",
+            "text": "これ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 321,
+            "time": "21:57",
+            "interlocutor": "息子",
+            "text": "これは？これ雷ないと",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 322,
+            "time": "21:59",
+            "interlocutor": "父",
+            "text": "うん、ここは通ってない",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 323,
+            "time": "22:04",
+            "interlocutor": "父",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 324,
+            "time": "22:06",
+            "interlocutor": "母",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 325,
+            "time": "22:07",
+            "interlocutor": "母",
+            "text": "こういうのたろう言う事聞いてくれるからえらい。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 326,
+            "time": "22:18",
+            "interlocutor": "父",
+            "text": "本当はね、同じところにさすと電気がループしちゃうから危ないからね、",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 327,
+            "time": "22:23",
+            "interlocutor": "息子",
+            "text": "危ない、ループしてる？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 328,
+            "time": "22:25",
+            "interlocutor": "父",
+            "text": "ループって知ってる？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 329,
+            "time": "22:29",
+            "interlocutor": "母",
+            "text": "知てらないよね。くるくる回っちゃうのよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 330,
+            "time": "22:38",
+            "interlocutor": "息子",
+            "text": "ループ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 331,
+            "time": "22:40",
+            "interlocutor": "母",
+            "text": "ループ難しいよね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 332,
+            "time": "22:43",
+            "interlocutor": "息子",
+            "text": "ループ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 333,
+            "time": "22:47",
+            "interlocutor": "母",
+            "text": "そういうことしたいだけのね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 334,
+            "time": "22:56",
+            "interlocutor": "息子",
+            "text": "これね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 335,
+            "time": "22:57",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 336,
+            "time": "22:57",
+            "interlocutor": "息子",
+            "text": "電柱作れるんだよ、電柱",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 337,
+            "time": "22:57",
+            "interlocutor": "母",
+            "text": "これ洗うの？たーちゃん、皿、洗うの頂戴",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 338,
+            "time": "22:57",
+            "interlocutor": "母",
+            "text": "たーちゃん食べないのもう、片付けるよ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 339,
+            "time": "23:08",
+            "interlocutor": "父",
+            "text": "全然食べてないじゃん、桃。たーちゃん、桃 [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 340,
+            "time": "23:23",
+            "interlocutor": "母",
+            "text": "おいしいでしょ、あのボトルは使ったの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 341,
+            "time": "23:28",
+            "interlocutor": "父",
+            "text": "使ってないよ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 342,
+            "time": "23:46",
+            "interlocutor": "父",
+            "text": "あれ？シュワシュワしちゃうね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 343,
+            "time": "23:48",
+            "interlocutor": "息子",
+            "text": "ん？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 344,
+            "time": "23:49",
+            "interlocutor": "父",
+            "text": "桃のジュース美味しいかなと思って、もっと食べれると。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 345,
+            "time": "23:59",
+            "interlocutor": "息子",
+            "text": "食べれない。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 346,
+            "time": "24:00:00",
+            "interlocutor": "父",
+            "text": "もういらない。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 347,
+            "time": "24:00:00",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 348,
+            "time": "24:07:00",
+            "interlocutor": "父",
+            "text": "クリームパンは？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 349,
+            "time": "24:07:00",
+            "interlocutor": "息子",
+            "text": "いる",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 350,
+            "time": "24:07:00",
+            "interlocutor": "父",
+            "text": "いる",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 351,
+            "time": "24:17:00",
+            "interlocutor": "父",
+            "text": "美味しいよね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 352,
+            "time": "24:17:00",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 353,
+            "time": "24:17:00",
+            "interlocutor": "父",
+            "text": "桃はいらない。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 354,
+            "time": "24:18:00",
+            "interlocutor": "息子",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 355,
+            "time": "24:28:00",
+            "interlocutor": "父",
+            "text": "カルピス牛乳にする？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 356,
+            "time": "24:30:00",
+            "interlocutor": "息子",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 357,
+            "time": "24:31:00",
+            "interlocutor": "父",
+            "text": "カルピス牛乳作る？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 358,
+            "time": "24:41:00",
+            "interlocutor": "息子",
+            "text": "氷入れたい、氷。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 359,
+            "time": "24:43:00",
+            "interlocutor": "父",
+            "text": "いいよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 360,
+            "time": "24:53:00",
+            "interlocutor": "息子",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 361,
+            "time": "25:15:00",
+            "interlocutor": "父",
+            "text": "はいどうぞ。おかわりして飲んでね。 [inaudible] 置いといたよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 362,
+            "time": "25:52:00",
+            "interlocutor": "息子",
+            "text": "ここに電池。入れるんだよ、電池",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 363,
+            "time": "25:53:00",
+            "interlocutor": "父",
+            "text": "ここに電池あるの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 364,
+            "time": "25:55:00",
+            "interlocutor": "息子",
+            "text": "あるんだよ [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 365,
+            "time": "25:56:00",
+            "interlocutor": "父",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 366,
+            "time": "26:00:00",
+            "interlocutor": "息子",
+            "text": "えっと電池の仲間に。トランク作ってるんだよ。こうゆうホース作れるんだよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 367,
+            "time": "26:25:00",
+            "interlocutor": "父",
+            "text": "すごいじゃん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 368,
+            "time": "26:27:00",
+            "interlocutor": "息子",
+            "text": "こういうつながってるホースあるんだよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 369,
+            "time": "26:30:00",
+            "interlocutor": "父",
+            "text": "つながってるホースあるの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 370,
+            "time": "26:31:00",
+            "interlocutor": "息子",
+            "text": "あるんだよ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 371,
+            "time": "26:32:00",
+            "interlocutor": "父",
+            "text": "どういうところにあるの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 372,
+            "time": "26:33:00",
+            "interlocutor": "息子",
+            "text": "えっとスピーカーところに中にここに電池あるんだよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 373,
+            "time": "26:38:00",
+            "interlocutor": "父",
+            "text": "あったね電源ボックスのところにホース繋がってるね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 374,
+            "time": "26:42:00",
+            "interlocutor": "息子",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 375,
+            "time": "26:44:00",
+            "interlocutor": "父",
+            "text": "確かに。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 376,
+            "time": "26:49:00",
+            "interlocutor": "息子",
+            "text": "確かに、エッシュ [inaudible]確かに。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 377,
+            "time": "27:08:00",
+            "interlocutor": "父",
+            "text": "確かに、じゃエスカベーダーとかしまっていいのこれ？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 378,
+            "time": "27:13:00",
+            "interlocutor": "息子",
+            "text": "エスカベール。合体したよ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 379,
+            "time": "27:14:00",
+            "interlocutor": "父",
+            "text": "ん？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 380,
+            "time": "27:14:00",
+            "interlocutor": "息子",
+            "text": "エスカベール",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 381,
+            "time": "27:19:00",
+            "interlocutor": "父",
+            "text": "エスカベーダーはしまっていいの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 382,
+            "time": "27:21:00",
+            "interlocutor": "息子",
+            "text": "いいの",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 383,
+            "time": "27:22:00",
+            "interlocutor": "父",
+            "text": "いいの。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 384,
+            "time": "27:22:00",
+            "interlocutor": "息子",
+            "text": "いいの",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 385,
+            "time": "27:24:00",
+            "interlocutor": "父",
+            "text": "これなんかジロちゃん好きっぽいからさ。今度貸してあげて",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 386,
+            "time": "27:30:00",
+            "interlocutor": "息子",
+            "text": "今度貸してあげて",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 387,
+            "time": "27:30:00",
+            "interlocutor": "父",
+            "text": "うん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 388,
+            "time": "27:40:00",
+            "interlocutor": "息子",
+            "text": "[inaudible] でつながってるんだよ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 389,
+            "time": "27:40:00",
+            "interlocutor": "父",
+            "text": "お。すごいじゃん。電柱とスピーカー。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 390,
+            "time": "27:42:00",
+            "interlocutor": "父",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 391,
+            "time": "27:59:00",
+            "interlocutor": "父",
+            "text": "たーちゃんまた今度さあ、",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 392,
+            "time": "28:01:00",
+            "interlocutor": "息子",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 393,
+            "time": "28:01:00",
+            "interlocutor": "父",
+            "text": "はなちゃんとさあ、キャンプ行くんだけどさあ、",
+            "list_operation": [
+                {
+                    "id": "schedule_5",
+                    "operation": "create",
+                    "status": "confirmed",
+                    "what": "はなちゃんとキャンプに行く",
+                    "when": null,
+                    "who": "息子",
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 394,
+            "time": "28:03:00",
+            "interlocutor": "息子",
+            "text": "はなちゃん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 395,
+            "time": "28:05:00",
+            "interlocutor": "父",
+            "text": "はなちゃんわかる？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 396,
+            "time": "28:06:00",
+            "interlocutor": "息子",
+            "text": "はなちゃんわかる、このあいだ行った",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 397,
+            "time": "28:08:00",
+            "interlocutor": "父",
+            "text": "はなちゃんとキャンプ行くんだけどさ、そうこないだ行ったよね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 398,
+            "time": "28:11:00",
+            "interlocutor": "息子",
+            "text": "このあいだ行った",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 399,
+            "time": "28:13:00",
+            "interlocutor": "父",
+            "text": "またドッティもプンプンも一緒にさあキャンプ行くんだけどさ。",
+            "list_operation": [
+                {
+                    "id": "schedule_5",
+                    "operation": "update",
+                    "status": null,
+                    "what": "ドッティとプンプンとはなちゃんとキャンプに行く",
+                    "when": null,
+                    "who": null,
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 400,
+            "time": "28:17:00",
+            "interlocutor": "息子",
+            "text": "キャンプ行くんだけどさ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 401,
+            "time": "28:19:00",
+            "interlocutor": "父",
+            "text": "はなちゃんとキャンプで何したい？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 402,
+            "time": "28:26:00",
+            "interlocutor": "息子",
+            "text": "えと、プールで遊びたい。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 403,
+            "time": "28:27:00",
+            "interlocutor": "父",
+            "text": "プールは持っていけないかな",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 404,
+            "time": "28:30:00",
+            "interlocutor": "父",
+            "text": "なんかさあ、ボールポンしてさあ、当てるやつとか持ってく",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 405,
+            "time": "28:37:00",
+            "interlocutor": "息子",
+            "text": "ん？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 406,
+            "time": "28:37:00",
+            "interlocutor": "父",
+            "text": "ポンってやって投げてボール。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 407,
+            "time": "28:40:00",
+            "interlocutor": "息子",
+            "text": "ぷにぷにボール。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 408,
+            "time": "28:42:00",
+            "interlocutor": "父",
+            "text": "ぷにぷにボールでもいいよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 409,
+            "time": "28:44:00",
+            "interlocutor": "息子",
+            "text": "ぷにぷにボールほしいな。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 410,
+            "time": "28:47:00",
+            "interlocutor": "父",
+            "text": "どういうやつぷにぷにボールって？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 411,
+            "time": "28:50:00",
+            "interlocutor": "息子",
+            "text": "ぷにぷにボールはぶじゅぶじゅボール。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 412,
+            "time": "28:53:00",
+            "interlocutor": "父",
+            "text": "ぶじゅぶじゅボールはさ、なんかぷんちゃんが食べちゃったらさ、取ったらさぶしゅってなっちゃうから。なんかちょっともうちょっと違うやつがいいかな。あのカラフルボール持っていくキャンプ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 413,
+            "time": "29:08:00",
+            "interlocutor": "息子",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 414,
+            "time": "29:08:00",
+            "interlocutor": "父",
+            "text": "ね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 415,
+            "time": "29:08:00",
+            "interlocutor": "息子",
+            "text": "はなちゃんと一緒。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 416,
+            "time": "29:10:00",
+            "interlocutor": "父",
+            "text": "はなちゃん見てこれたーちゃんカレンダー",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 417,
+            "time": "29:15:00",
+            "interlocutor": "息子",
+            "text": "ん？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 418,
+            "time": "29:15:00",
+            "interlocutor": "父",
+            "text": "ここ書いてあるよ、はなちゃんとキャンプって書いてある。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 419,
+            "time": "29:18:00",
+            "interlocutor": "息子",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 420,
+            "time": "29:20:00",
+            "interlocutor": "父",
+            "text": "見て",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 421,
+            "time": "29:21:00",
+            "interlocutor": "息子",
+            "text": "ん？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 422,
+            "time": "29:24:00",
+            "interlocutor": "父",
+            "text": "ここ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 423,
+            "time": "29:25:00",
+            "interlocutor": "息子",
+            "text": "うん。いつで？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 424,
+            "time": "29:38:00",
+            "interlocutor": "父",
+            "text": "どうしたの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 425,
+            "time": "29:39:00",
+            "interlocutor": "息子",
+            "text": "おなら？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 426,
+            "time": "29:40:00",
+            "interlocutor": "父",
+            "text": "おならが出たの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 427,
+            "time": "29:42:00",
+            "interlocutor": "息子",
+            "text": "おならが出た。ここは",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 428,
+            "time": "29:52:00",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 429,
+            "time": "29:52:00",
+            "interlocutor": "息子",
+            "text": "だめですよ。ここだめですよー、ここ触っちゃだめですよおー。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 430,
+            "time": "30:02:00",
+            "interlocutor": "父",
+            "text": "はあい。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 431,
+            "time": "30:03:00",
+            "interlocutor": "息子",
+            "text": "ここ電池い入れるからなんですよ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 432,
+            "time": "30:07:00",
+            "interlocutor": "父",
+            "text": "それは何？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 433,
+            "time": "30:09:00",
+            "interlocutor": "息子",
+            "text": "これはスピーカーの電池入ってるんだよ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 434,
+            "time": "30:13:00",
+            "interlocutor": "父",
+            "text": "もう、電源ボックスにホースつながってるね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 435,
+            "time": "30:17:00",
+            "interlocutor": "息子",
+            "text": "お水がでたんだよ、お水",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 436,
+            "time": "32:28:00",
+            "interlocutor": "息子",
+            "text": "9時に大丈夫ですよ、",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 437,
+            "time": "33:13:00",
+            "interlocutor": "息子",
+            "text": "洗濯終わった",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 438,
+            "time": "33:14:00",
+            "interlocutor": "父",
+            "text": "洗濯終わった",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 439,
+            "time": "33:16:00",
+            "interlocutor": "息子",
+            "text": "これは。 [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 440,
+            "time": "33:23:00",
+            "interlocutor": "父",
+            "text": "そのスピーカー鳴るの?",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 441,
+            "time": "33:25:00",
+            "interlocutor": "息子",
+            "text": "鳴るんだよ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 442,
+            "time": "33:25:00",
+            "interlocutor": "父",
+            "text": "野ばら",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 443,
+            "time": "33:27:00",
+            "interlocutor": "息子",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 444,
+            "time": "33:27:00",
+            "interlocutor": "父",
+            "text": "今度さ聞きに行く？",
+            "list_operation": [
+                {
+                    "id": "schedule_6",
+                    "operation": "create",
+                    "status": "unconfirmed",
+                    "what": "野ばら聞きに行く",
+                    "when": "今度",
+                    "who": "父,息子",
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 445,
+            "time": "33:30:00",
+            "interlocutor": "息子",
+            "text": "うん。",
+            "list_operation": [
+                {
+                    "id": "schedule_6",
+                    "operation": "update",
+                    "status": "confirmed",
+                    "what": null,
+                    "when": null,
+                    "who": null,
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 446,
+            "time": "33:31:00",
+            "interlocutor": "父",
+            "text": "ね、どこで鳴るんだろうね？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 447,
+            "time": "33:35:00",
+            "interlocutor": "息子",
+            "text": "おっきい音ね、近くの方にびっくりするかな？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 448,
+            "time": "33:40:00",
+            "interlocutor": "父",
+            "text": "うん、近くで聞くとおっきい音だからさ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 449,
+            "time": "33:43:00",
+            "interlocutor": "息子",
+            "text": "おっきい音",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 450,
+            "time": "33:45:00",
+            "interlocutor": "父",
+            "text": "じゃあ、たーちゃんどこの防災放送が、のば、野ばらか調べてみようか。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 451,
+            "time": "33:51:00",
+            "interlocutor": "息子",
+            "text": "野ばら。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 452,
+            "time": "33:56:00",
+            "interlocutor": "父",
+            "text": "じゃさグーグル先生に聞いてみたら？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 453,
+            "time": "33:58:00",
+            "interlocutor": "息子",
+            "text": "グーグル先生スピーカーのはまるですか",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 454,
+            "time": "34:03:00",
+            "interlocutor": "父",
+            "text": "オッケーグーグル。のばらが鳴る防災放送はどこ",
+            "list_operation": [
+                {
+                    "id": "schedule_6",
+                    "operation": "update",
+                    "status": null,
+                    "what": "のばらがなる防災放送を聞きに行く",
+                    "when": null,
+                    "who": null,
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 455,
+            "time": "34:13:00",
+            "interlocutor": "音声アシスタント",
+            "text": "すみません、うまく理解できませんでした。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 456,
+            "time": "34:16:00",
+            "interlocutor": "父",
+            "text": "わかんなかったって。でここで調べてみようか。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 457,
+            "time": "34:23:00",
+            "interlocutor": "息子",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 458,
+            "time": "34:25:00",
+            "interlocutor": "父",
+            "text": "のばら防災防災無線。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 459,
+            "time": "34:33:00",
+            "interlocutor": "息子",
+            "text": "のばら。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 460,
+            "time": "34:34:00",
+            "interlocutor": "父",
+            "text": "これはどこだろうね？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 461,
+            "time": "34:35:00",
+            "interlocutor": "息子",
+            "text": "それは？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 462,
+            "time": "34:37:00",
+            "interlocutor": "父",
+            "text": "富山県だって。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 463,
+            "time": "34:37:00",
+            "interlocutor": "息子",
+            "text": "これ赤いのスピーカーついてる、ほら野ばら。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 464,
+            "time": "34:43:00",
+            "interlocutor": "息子",
+            "text": "ほら。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 465,
+            "time": "34:44:00",
+            "interlocutor": "父",
+            "text": "うーん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 466,
+            "time": "34:44:00",
+            "interlocutor": "息子",
+            "text": "いっぱいスピーカー鳴るでしょ？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 467,
+            "time": "34:46:00",
+            "interlocutor": "父",
+            "text": "ほんとだ、",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 468,
+            "time": "34:47:00",
+            "interlocutor": "息子",
+            "text": "これでいです、",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 469,
+            "time": "34:48:00",
+            "interlocutor": "父",
+            "text": "これでいいでしょう。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 470,
+            "time": "34:53:00",
+            "interlocutor": "息子",
+            "text": "こんな高い棒にいっぱいチクチクアンテナついてるんだよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 471,
+            "time": "34:58:00",
+            "interlocutor": "父",
+            "text": "ねえ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 472,
+            "time": "35:01:00",
+            "interlocutor": "息子",
+            "text": "次のページ次のページ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 473,
+            "time": "35:13:00",
+            "interlocutor": "父",
+            "text": "ちょっと待って",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 474,
+            "time": "35:13:00",
+            "interlocutor": "息子",
+            "text": "次のページ次のページ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 475,
+            "time": "35:23:00",
+            "interlocutor": "父",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 476,
+            "time": "35:23:00",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 477,
+            "time": "35:32:00",
+            "interlocutor": "息子",
+            "text": "それは？野ばら",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 478,
+            "time": "35:33:00",
+            "interlocutor": "父",
+            "text": "これは野ばら？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 479,
+            "time": "35:34:00",
+            "interlocutor": "息子",
+            "text": "うん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 480,
+            "time": "35:36:00",
+            "interlocutor": "父",
+            "text": "富山とかさあ、距離とかさあ、北陸が野ばらなのかもね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 481,
+            "time": "35:43:00",
+            "interlocutor": "母",
+            "text": "石川帰るついでに見るって感じだな。多分",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 482,
+            "time": "35:45:00",
+            "interlocutor": "母",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 483,
+            "time": "35:50:00",
+            "interlocutor": "父",
+            "text": "野ばら素敵だね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 484,
+            "time": "35:55:00",
+            "interlocutor": "息子",
+            "text": "素敵、次のページ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 485,
+            "time": "35:55:00",
+            "interlocutor": "父",
+            "text": "上手。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 486,
+            "time": "36:06:00",
+            "interlocutor": "息子",
+            "text": "これは野原。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 487,
+            "time": "36:08:00",
+            "interlocutor": "父",
+            "text": "たーちゃんは野原が一番好き？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 488,
+            "time": "36:10:00",
+            "interlocutor": "息子",
+            "text": "好き",
+            "list_operation": [
+                {
+                    "id": "schedule_6",
+                    "operation": "update",
+                    "status": null,
+                    "what": null,
+                    "when": null,
+                    "who": null,
+                    "where": null,
+                    "why": "息子が野ばらをすきだから",
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 489,
+            "time": "36:14:00",
+            "interlocutor": "息子",
+            "text": "次のページ、これなんで止まっちゃったんだろうね？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 490,
+            "time": "36:22:00",
+            "interlocutor": "父",
+            "text": "うん。次のページしたからじゃない？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 491,
+            "time": "36:31:00",
+            "interlocutor": "息子",
+            "text": "何の音？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 492,
+            "time": "36:40:00",
+            "interlocutor": "父",
+            "text": "ね、これはね、ここもかな。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 493,
+            "time": "36:54:00",
+            "interlocutor": "息子",
+            "text": "これも野ばら",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 494,
+            "time": "36:55:00",
+            "interlocutor": "父",
+            "text": "うん、これは近いかもしれないちょっと。川越だって。これは比較的近い大月も野ばらだって",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 495,
+            "time": "37:25:00",
+            "interlocutor": "母",
+            "text": "大月？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 496,
+            "time": "37:25:00",
+            "interlocutor": "父",
+            "text": "12時になるとお昼の音楽が野ばらだってさ、たーちゃん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 497,
+            "time": "37:27:00",
+            "interlocutor": "母",
+            "text": "聞きやすいじゃん、じゃあ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 498,
+            "time": "37:27:00",
+            "interlocutor": "母",
+            "text": "[inaudible] 今度 [inaudible] ってみるか",
+            "list_operation": [
+                {
+                    "id": "schedule_6",
+                    "operation": "update",
+                    "status": null,
+                    "what": null,
+                    "when": null,
+                    "who": "父,息子,母",
+                    "where": null,
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 499,
+            "time": "37:27:00",
+            "interlocutor": "父",
+            "text": "ねえ、今度聞きに行ってみる？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 500,
+            "time": "37:34:00",
+            "interlocutor": "母",
+            "text": "野ばら。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 501,
+            "time": "37:34:00",
+            "interlocutor": "息子",
+            "text": "うん。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 502,
+            "time": "37:36:00",
+            "interlocutor": "息子",
+            "text": "これラダー。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 503,
+            "time": "37:37:00",
+            "interlocutor": "父",
+            "text": "ラダーついてるね？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 504,
+            "time": "37:39:00",
+            "interlocutor": "息子",
+            "text": "そしたらラダー高いところに登れるんだ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 505,
+            "time": "37:43:00",
+            "interlocutor": "父",
+            "text": "うーん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 506,
+            "time": "37:43:00",
+            "interlocutor": "息子",
+            "text": "これ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 507,
+            "time": "37:44:00",
+            "interlocutor": "息子",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 508,
+            "time": "38:02:00",
+            "interlocutor": "父",
+            "text": "マックナゲットだって？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 509,
+            "time": "38:03:00",
+            "interlocutor": "母",
+            "text": "CMね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 510,
+            "time": "38:03:00",
+            "interlocutor": "父",
+            "text": "これも川越だって。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 511,
+            "time": "38:12:00",
+            "interlocutor": "息子",
+            "text": "なにかが [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 512,
+            "time": "38:12:00",
+            "interlocutor": "父",
+            "text": "川越。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 513,
+            "time": "38:13:00",
+            "interlocutor": "息子",
+            "text": "素敵だね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 514,
+            "time": "38:16:00",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 515,
+            "time": "38:17:00",
+            "interlocutor": "息子",
+            "text": "素敵。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 516,
+            "time": "38:19:00",
+            "interlocutor": "母",
+            "text": "素敵だったん？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 517,
+            "time": "38:20:00",
+            "interlocutor": "息子",
+            "text": "このページ次のページこれ？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 518,
+            "time": "38:25:00",
+            "interlocutor": "父",
+            "text": "これは福井だってちょっと違うね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 519,
+            "time": "38:34:00",
+            "interlocutor": "母",
+            "text": "面白い。でも野ばらだね。うんち？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 520,
+            "time": "38:40:00",
+            "interlocutor": "息子",
+            "text": "ううん、違う。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 521,
+            "time": "38:43:00",
+            "interlocutor": "父",
+            "text": "出てない？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 522,
+            "time": "38:43:00",
+            "interlocutor": "息子",
+            "text": "新しいね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 523,
+            "time": "38:45:00",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 524,
+            "time": "38:48:00",
+            "interlocutor": "息子",
+            "text": "ちょっとびっくりした。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 525,
+            "time": "38:50:00",
+            "interlocutor": "父",
+            "text": "びっくり。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 526,
+            "time": "38:50:00",
+            "interlocutor": "母",
+            "text": "うんちょっとびっくり",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 527,
+            "time": "38:59:00",
+            "interlocutor": "息子",
+            "text": "素敵な音",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 528,
+            "time": "38:59:00",
+            "interlocutor": "父",
+            "text": "たーちゃん、一番近いのは大月だから大月にさ、今度聞きに行ってみる？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 529,
+            "time": "39:04:00",
+            "interlocutor": "息子",
+            "text": "うん",
+            "list_operation": [
+                {
+                    "id": "schedule_6",
+                    "operation": "update",
+                    "status": null,
+                    "what": null,
+                    "when": null,
+                    "who": null,
+                    "where": "大月",
+                    "why": null,
+                    "how": null
+                }
+            ]
+        },
+        {
+            "utterance_id": 530,
+            "time": "39:04:00",
+            "interlocutor": "父",
+            "text": "防災無線",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 531,
+            "time": "39:06:00",
+            "interlocutor": "母",
+            "text": "面白い。野ばら聞けるかもね。え、聞きたくないの。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 532,
+            "time": "39:11:00",
+            "interlocutor": "息子",
+            "text": "聞きたい？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 533,
+            "time": "39:17:00",
+            "interlocutor": "母",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 534,
+            "time": "39:22:00",
+            "interlocutor": "息子",
+            "text": "これスピーカーあるんだって。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 535,
+            "time": "39:24:00",
+            "interlocutor": "父",
+            "text": "うん、これは何？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 536,
+            "time": "39:28:00",
+            "interlocutor": "息子",
+            "text": "これは家路。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 537,
+            "time": "39:30:00",
+            "interlocutor": "父",
+            "text": "これは家路か。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 538,
+            "time": "39:38:00",
+            "interlocutor": "息子",
+            "text": "そのそれは？ただ知らなかった。 [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 539,
+            "time": "39:53:00",
+            "interlocutor": "父",
+            "text": "これなんていう歌？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 540,
+            "time": "39:54:00",
+            "interlocutor": "息子",
+            "text": "それはそれはふるさと。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 541,
+            "time": "39:59:00",
+            "interlocutor": "父",
+            "text": "ほら、赤とんぼだって。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 542,
+            "time": "40:01:00",
+            "interlocutor": "息子",
+            "text": "赤とんぼ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 543,
+            "time": "40:02:00",
+            "interlocutor": "父",
+            "text": "たーちゃん知ってたた？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 544,
+            "time": "40:04:00",
+            "interlocutor": "息子",
+            "text": "赤とんぼ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 545,
+            "time": "40:04:00",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 546,
+            "time": "40:07:00",
+            "interlocutor": "母",
+            "text": "初めてでしょ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 547,
+            "time": "40:08:00",
+            "interlocutor": "息子",
+            "text": "かか知らなかった。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 548,
+            "time": "40:17:00",
+            "interlocutor": "母",
+            "text": "かか知ってるよ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 549,
+            "time": "40:24:00",
+            "interlocutor": "息子",
+            "text": "[inaudible] あるんだって",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 550,
+            "time": "40:24:00",
+            "interlocutor": "息子",
+            "text": "これスピーカーついてる",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 551,
+            "time": "40:40:00",
+            "interlocutor": "父",
+            "text": "これはなんていう歌？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 552,
+            "time": "40:42:00",
+            "interlocutor": "息子",
+            "text": "家路。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 553,
+            "time": "40:43:00",
+            "interlocutor": "父",
+            "text": "すごいね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 554,
+            "time": "40:45:00",
+            "interlocutor": "息子",
+            "text": "これいっぱいスピーカー。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 555,
+            "time": "40:47:00",
+            "interlocutor": "父",
+            "text": "ねえ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 556,
+            "time": "40:50:00",
+            "interlocutor": "息子",
+            "text": "これゼリー？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 557,
+            "time": "40:52:00",
+            "interlocutor": "父",
+            "text": "ううんガム。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 558,
+            "time": "40:52:00",
+            "interlocutor": "息子",
+            "text": "ガム",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 559,
+            "time": "40:56:00",
+            "interlocutor": "父",
+            "text": "ねえ、これ、これ、ちょっと聞いてみたいんだけどいい？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 560,
+            "time": "40:58:00",
+            "interlocutor": "母",
+            "text": "[inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 561,
+            "time": "41:16:00",
+            "interlocutor": "父",
+            "text": "ちょっと変だね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 562,
+            "time": "41:17:00",
+            "interlocutor": "息子",
+            "text": "これフラッグ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 563,
+            "time": "41:24:00",
+            "interlocutor": "父",
+            "text": "宮城県だって？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 564,
+            "time": "41:30:00",
+            "interlocutor": "母",
+            "text": "家路はそっちの方の歌 [inaudible]",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 565,
+            "time": "41:46:00",
+            "interlocutor": "息子",
+            "text": "だけだね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 566,
+            "time": "41:48:00",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 567,
+            "time": "41:49:00",
+            "interlocutor": "息子",
+            "text": "ちょっとこれ知らなかった。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 568,
+            "time": "41:51:00",
+            "interlocutor": "父",
+            "text": "これね、残酷な天使のテーゼって言うんだよ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 569,
+            "time": "41:59:00",
+            "interlocutor": "母",
+            "text": "有名な歌だよこれ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 570,
+            "time": "42:00:00",
+            "interlocutor": "母",
+            "text": "これはなに、発祥の地",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 571,
+            "time": "42:00:00",
+            "interlocutor": "息子",
+            "text": "これも新しい",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 572,
+            "time": "42:02:00",
+            "interlocutor": "父",
+            "text": "なあに、宮城県",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 573,
+            "time": "42:03:00",
+            "interlocutor": "母",
+            "text": "なんで？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 574,
+            "time": "42:05:00",
+            "interlocutor": "父",
+            "text": "なんか変わったことやろうとしたんですけど、この選曲した方はお亡くなりになられた。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 575,
+            "time": "42:11:00",
+            "interlocutor": "母",
+            "text": "そういうのも書いてあんの？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 576,
+            "time": "42:12:00",
+            "interlocutor": "父",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 577,
+            "time": "42:14:00",
+            "interlocutor": "母",
+            "text": "マニアはすごいね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 578,
+            "time": "42:23:00",
+            "interlocutor": "父",
+            "text": "これはスタンダードだね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 579,
+            "time": "42:26:00",
+            "interlocutor": "息子",
+            "text": "これいい",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 580,
+            "time": "42:26:00",
+            "interlocutor": "母",
+            "text": "いつも鳴るやつね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 581,
+            "time": "42:27:00",
+            "interlocutor": "息子",
+            "text": "これ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 582,
+            "time": "42:28:00",
+            "interlocutor": "父",
+            "text": "これもそうじゃない夕焼け小焼けだ。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 583,
+            "time": "42:32:00",
+            "interlocutor": "母",
+            "text": "こちらは。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 584,
+            "time": "42:37:00",
+            "interlocutor": "息子",
+            "text": "これはこれ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 585,
+            "time": "42:38:00",
+            "interlocutor": "父",
+            "text": "それはちょっと違うかな。これは？知ってるこれ？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 586,
+            "time": "42:52:00",
+            "interlocutor": "父",
+            "text": "知ってる",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 587,
+            "time": "43:21:00",
+            "interlocutor": "息子",
+            "text": "素敵",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 588,
+            "time": "43:21:00",
+            "interlocutor": "父",
+            "text": "ねえ",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 589,
+            "time": "43:21:00",
+            "interlocutor": "息子",
+            "text": "こんなとと知らない",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 590,
+            "time": "43:21:00",
+            "interlocutor": "父",
+            "text": "これムーンリバーだって。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 591,
+            "time": "43:25:00",
+            "interlocutor": "息子",
+            "text": "ムリバー。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 592,
+            "time": "43:25:00",
+            "interlocutor": "父",
+            "text": "ムーンリバー",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 593,
+            "time": "43:26:00",
+            "interlocutor": "息子",
+            "text": "ムーンリバーだってムーンリバー。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 594,
+            "time": "43:29:00",
+            "interlocutor": "母",
+            "text": "お月様の川？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 595,
+            "time": "43:31:00",
+            "interlocutor": "父",
+            "text": "そうだね。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 596,
+            "time": "43:31:00",
+            "interlocutor": "息子",
+            "text": "ムーン",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 597,
+            "time": "43:32:00",
+            "interlocutor": "父",
+            "text": "ムーン",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 598,
+            "time": "43:32:00",
+            "interlocutor": "母",
+            "text": "ムーンリバーね",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 599,
+            "time": "43:32:00",
+            "interlocutor": "父",
+            "text": "たーちゃんムーンは知ってるでしょ？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 600,
+            "time": "43:37:00",
+            "interlocutor": "息子",
+            "text": "うアイスクリームいろんな。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 601,
+            "time": "43:38:00",
+            "interlocutor": "母",
+            "text": "リバーも知ってる",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 602,
+            "time": "43:38:00",
+            "interlocutor": "父",
+            "text": "リバーも知ってるでしょう",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 603,
+            "time": "43:40:00",
+            "interlocutor": "息子",
+            "text": "リバーも知ってる",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 604,
+            "time": "43:46:00",
+            "interlocutor": "息子",
+            "text": "お洗濯。これお洗濯？",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 605,
+            "time": "43:52:00",
+            "interlocutor": "父",
+            "text": "これちくちくアンテナじゃないの",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 606,
+            "time": "43:53:00",
+            "interlocutor": "息子",
+            "text": "うん",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 607,
+            "time": "44:00:00",
+            "interlocutor": "母",
+            "text": "話して見れる日が来るなんて可愛いじゃない。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 608,
+            "time": "44:05:00",
+            "interlocutor": "息子",
+            "text": "どでまして、これも知ってるんだ、これも知ってる。それ、それ夕方音楽。",
+            "list_operation": []
+        },
+        {
+            "utterance_id": 609,
+            "time": "44:18:00",
+            "interlocutor": "父",
+            "text": "これ夕焼け小焼け。",
+            "list_operation": []
+        }
+    ],
+    "list": [
+        {
+            "id": "schedule_0",
+            "status": "confirmed",
+            "what": "マイク君,なるちゃんが家に来る",
+            "when": "今日の9時,10時",
+            "who": null,
+            "where": "家",
+            "why": null,
+            "how": null
+        },
+        {
+            "id": "action_0",
+            "status": "confirmed",
+            "what": "プールに入る",
+            "when": null,
+            "who": "息子",
+            "where": null,
+            "why": null,
+            "how": null
+        },
+        {
+            "id": "schedule_1",
+            "status": "confirmed",
+            "what": "ちっちとばあばと旅行に行く",
+            "when": "来週",
+            "who": "息子",
+            "where": null,
+            "why": null,
+            "how": null
+        },
+        {
+            "id": "action_1",
+            "status": "confirmed",
+            "what": "お風呂に入る",
+            "when": null,
+            "who": "父,母,息子",
+            "where": "お風呂",
+            "why": "きれいになったらお夕食べる",
+            "how": null
+        },
+        {
+            "id": "schedule_2",
+            "status": "unconfirmed",
+            "what": "ひよこの夏祭り",
+            "when": "今月の25日",
+            "who": null,
+            "where": null,
+            "why": null,
+            "how": null
+        },
+        {
+            "id": "schedule_3",
+            "status": "confirmed",
+            "what": "ゴミの日",
+            "when": "明日（月曜日）",
+            "who": null,
+            "where": null,
+            "why": null,
+            "how": null
+        },
+        {
+            "id": "schedule_4",
+            "status": "confirmed",
+            "what": "最後のプール",
+            "when": "明日（月曜日）",
+            "who": "息子",
+            "where": "保育園",
+            "why": null,
+            "how": null
+        },
+        {
+            "id": "schedule_5",
+            "status": "confirmed",
+            "what": "ドッティとプンプンとはなちゃんとキャンプに行く",
+            "when": null,
+            "who": "息子",
+            "where": null,
+            "why": null,
+            "how": null
+        },
+        {
+            "id": "schedule_6",
+            "status": "confirmed",
+            "what": "のばらがなる防災放送を聞きに行く",
+            "when": "今度",
+            "who": "父,息子,母",
+            "where": "大月",
+            "why": "息子が野ばらをすきだから",
+            "how": null
+        }
+    ]
+}
